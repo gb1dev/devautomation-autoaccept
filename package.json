@@ -1,0 +1,44 @@
+{
+    "name": "auto-accept",
+    "displayName": "Auto Accept for Antigravity",
+    "description": "Automatically presses the Accept button for Google Antigravity, enabling hands-free multi-workspace workflows.",
+    "version": "1.2.0",
+    "publisher": "DevAutomation",
+    "author": "DevAutomation",
+    "homepage": "https://devautomation.org/",
+    "icon": "icon.png",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Other",
+        "Machine Learning"
+    ],
+    "keywords": [
+        "antigravity",
+        "ai",
+        "auto-accept",
+        "agent",
+        "automation"
+    ],
+    "main": "./extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "auto-accept.toggle",
+                "title": "Auto Accept: Toggle ON/OFF"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "auto-accept.toggle",
+                "key": "ctrl+alt+a",
+                "mac": "cmd+alt+a"
+            }
+        ]
+    }
+}
