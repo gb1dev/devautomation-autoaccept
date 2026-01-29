@@ -2,7 +2,7 @@
     "name": "auto-accept",
     "displayName": "Auto Accept for Antigravity",
     "description": "Automatically presses the Accept button for Google Antigravity, enabling hands-free multi-workspace workflows.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "DevAutomation",
     "author": "DevAutomation",
     "homepage": "https://devautomation.org/",
