@@ -23,6 +23,10 @@ You can keep it in the background (tabbed away) or anywhere in your editor group
 2. In Antigravity: `Ctrl+Shift+P` → "Extensions: Install from VSIX..."
 3. Select the file and restart
 
+## More Development Automation Tools
+
+Looking for more tools to automate your development workflow? Visit **[devautomation.org](https://devautomation.org/)** for additional extensions and resources designed to streamline your coding experience.
+
 ## License
 
 MIT License - see LICENSE file for details.

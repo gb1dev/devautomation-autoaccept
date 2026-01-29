@@ -26,11 +26,11 @@ function updateStatusBar() {
     if (isEnabled) {
         statusBarItem.text = '$(check) Auto Accept: ON';
         statusBarItem.backgroundColor = new vscode.ThemeColor('statusBarItem.warningBackground');
-        statusBarItem.tooltip = 'Auto Accept is ON. Click to Disable.';
+        statusBarItem.tooltip = 'Auto Accept is ON. Click to Disable.\n\nMore tools at devautomation.org';
     } else {
         statusBarItem.text = '$(circle-slash) Auto Accept: OFF';
         statusBarItem.backgroundColor = undefined;
-        statusBarItem.tooltip = 'Auto Accept is DISABLED. Click to enable.';
+        statusBarItem.tooltip = 'Auto Accept is DISABLED. Click to enable.\n\nMore tools at devautomation.org';
     }
 }
 
@@ -54,6 +54,7 @@ function stop() {
 
 async function activate(context) {
     console.log('[AutoAccept] Activating...');
+    console.log('[AutoAccept] Visit https://devautomation.org for more development automation tools');
 
     // Commands
     const toggleCmd = vscode.commands.registerCommand('auto-accept.toggle', () => {
